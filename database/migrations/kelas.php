@@ -11,9 +11,9 @@ return new class extends Migration
      *
      * @return void
      */
-        //supaya terlindungi dan tidak dapat diakses tabel lain//
+         //supaya terlindungi dan tidak dapat diakses tabel lain//
     protected $table;
-        //untuk mempermudah supaya tidak perlu mengganti column 2 kali//
+         //untuk mempermudah supaya tidak perlu mengganti column 2 kali//
     public function __construct(){
         $this->table = 'kelas';
     }
